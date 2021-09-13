@@ -3,6 +3,8 @@
 OpenVinoを利用したwebカメラから顔認識するサンプルを作成しました。
 接続されたwebカメラの映像を表示し、その映像の中に人物の顔がある場合四角で囲みます。
 
+![無題](https://user-images.githubusercontent.com/4074863/133164268-2284c697-1415-4d0f-80cd-3f3db5609738.png)
+
 ## 環境構築
 
 以下のページよりWindows用のOpenVinoをダウンロード
@@ -35,5 +37,6 @@ face-detection-adas-0001.bin
 # 実行方法
 
 以下のコマンドで実行
+
 "C:\Program Files (x86)\Intel\openvino_2021\bin\setupvars.bat"
 python openVinoWebCameraSample.py
